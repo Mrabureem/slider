@@ -159,6 +159,14 @@ header nav a {
   background-color: #eee;
   color: #000;
 }
+@media (max-width: 672px) {
+  .carousel .list .item .content {
+    padding-right: 0;
+  }
+  .arrows {
+    left: 10%;
+  }
+}
 /* animation */
 .carousel.next .list .item:nth-child(1) .author,
 .carousel.next .list .item:nth-child(1) .title,
